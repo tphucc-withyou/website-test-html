@@ -1,0 +1,35 @@
+body {
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.hobbies {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.hobbies li {
+  margin: 10px 0;
+  font-size: 18px;
+}
